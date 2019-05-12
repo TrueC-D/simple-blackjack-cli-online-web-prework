@@ -4,7 +4,7 @@ end
 
 def deal_card
   20.times do 
-    rand(1..11)
+    rand[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
   end
   # code #deal_card here
 end
