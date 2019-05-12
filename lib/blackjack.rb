@@ -2,7 +2,9 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
+def deal_card (card)
+  20.times do card.new.rand(1..11)
+  
   # code #deal_card here
 end
 
