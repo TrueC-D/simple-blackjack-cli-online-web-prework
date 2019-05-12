@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  20.times do card.new.rand(1..11)
+  20.times do .new.rand(1..11)
   end
   # code #deal_card here
 end
